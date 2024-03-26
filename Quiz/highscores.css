@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #52abf8;
+  --secondary-color: #75e1ff;
+}
+
+#highScoresTable {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 4rem;
+}
+
+#highScoresTable th,
+#highScoresTable td {
+  border: 2px solid var(--primary-color);
+  padding: 8px;
+  text-align: center;
+}
+
+#highScoresTable th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.high-score {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 3.4rem; /* Original font size */
+  color: var(--primary-color);
+}
+
+.high-score:hover {
+  transform: scale(1.025);
+}
